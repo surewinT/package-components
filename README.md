@@ -1,3 +1,10 @@
+<!--
+ * @Author: surewinT 840325271@qq.com
+ * @Date: 2022-05-05 21:34:05
+ * @LastEditors: surewinT 840325271@qq.com
+ * @LastEditTime: 2022-05-11 00:09:27
+ * @Description: 
+-->
 # package-components 
 
 本项目对基础组件进行封装，以便更贴合实际业务。
@@ -11,9 +18,11 @@
       ├── components            # 业务组件库（封装的组件都放在这里）
       │   │── layout-components # 项目的主题组件（vue-admin-template官方的）
       │   │── p-el-checkbox     # 改造的el-checkbox
+      │   │── p-el-menu         # vue递归生成菜单栏
       ├── views                 # 组件案例
       │   │── login             # 登录页
       │   │── p-el-checkbox     # 改造的el-checkbox案例
+      │   │── p-el-menu         # vue递归案例
 ```
 
 
