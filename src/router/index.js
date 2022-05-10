@@ -1,3 +1,10 @@
+/*
+ * @Author: surewinT 840325271@qq.com
+ * @Date: 2022-05-05 21:34:05
+ * @LastEditors: surewinT 840325271@qq.com
+ * @LastEditTime: 2022-05-11 00:04:21
+ * @Description: 
+ */
 import Vue from 'vue'
 import Router from 'vue-router'
 
@@ -55,11 +62,20 @@ export const constantRoutes = [
         component: () => import('@/views/p-el-checkbox/index'),
         meta: { title: '改造el-checkbox', icon: '' }
       },
+    ]
+  },
+  {
+    path: '/example',
+    component: Layout,
+    redirect: '/p-el-menu',
+    name: 'Example',
+    meta: { title: '组件封装', icon: 'el-icon-s-help' },
+    children: [
       {
-        path: 'p-test',
-        name: 'p-test',
-        component: () => import('@/views/p-test/index'),
-        meta: { title: '改造el-test', icon: '' }
+        path: 'p-el-menu',
+        name: 'p-el-menu',
+        component: () => import('@/views/p-el-menu/index'),
+        meta: { title: 'vue组件递归', icon: '' }
       },
     ]
   },
