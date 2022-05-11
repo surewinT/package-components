@@ -2,7 +2,7 @@
  * @Author: surewinT 840325271@qq.com
  * @Date: 2022-05-05 21:34:05
  * @LastEditors: surewinT 840325271@qq.com
- * @LastEditTime: 2022-05-11 00:04:21
+ * @LastEditTime: 2022-05-11 20:13:59
  * @Description: 
  */
 import Vue from 'vue'
@@ -62,6 +62,12 @@ export const constantRoutes = [
         component: () => import('@/views/p-el-checkbox/index'),
         meta: { title: '改造el-checkbox', icon: '' }
       },
+      {
+        path: 'p-el-pagination',
+        name: 'p-el-pagination',
+        component: () => import('@/views/p-el-pagination/index'),
+        meta: { title: '改造el-pagination', icon: '' }
+      },
     ]
   },
   {
@@ -69,7 +75,7 @@ export const constantRoutes = [
     component: Layout,
     redirect: '/p-el-menu',
     name: 'Example',
-    meta: { title: '组件封装', icon: 'el-icon-s-help' },
+    meta: { title: '业务实例', icon: 'el-icon-s-help' },
     children: [
       {
         path: 'p-el-menu',
