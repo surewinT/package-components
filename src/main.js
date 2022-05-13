@@ -2,7 +2,7 @@
  * @Author: surewinT 840325271@qq.com
  * @Date: 2022-05-05 21:34:05
  * @LastEditors: surewinT 840325271@qq.com
- * @LastEditTime: 2022-05-11 20:14:56
+ * @LastEditTime: 2022-05-13 20:08:09
  * @Description: 
  */
 import Vue from 'vue'
@@ -21,6 +21,8 @@ import router from './router'
 
 import '@/icons' // icon
 import '@/permission' // permission control
+
+import './mixins'
 
 /**
  * If you don't want to use mock-server

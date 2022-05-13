@@ -2,7 +2,7 @@
  * @Author: surewinT 840325271@qq.com
  * @Date: 2022-05-05 21:34:05
  * @LastEditors: surewinT 840325271@qq.com
- * @LastEditTime: 2022-05-11 20:13:59
+ * @LastEditTime: 2022-05-13 19:44:29
  * @Description: 
  */
 import Vue from 'vue'
@@ -82,6 +82,18 @@ export const constantRoutes = [
         name: 'p-el-menu',
         component: () => import('@/views/p-el-menu/index'),
         meta: { title: 'vue组件递归', icon: '' }
+      },
+      {
+        path: 'p-virtual-check',
+        name: 'p-virtual-check',
+        component: () => import('@/views/p-virtual-check/index'),
+        meta: { title: '虚拟滚动-多选框', icon: '' }
+      },
+      {
+        path: 'p-virtual-transfer',
+        name: 'p-virtual-transfer',
+        component: () => import('@/views/p-virtual-transfer/index'),
+        meta: { title: '虚拟滚动-穿梭框', icon: '' }
       },
     ]
   },
