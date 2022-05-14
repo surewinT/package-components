@@ -2,7 +2,7 @@
  * @Author: surewinT 840325271@qq.com
  * @Date: 2022-05-05 21:34:05
  * @LastEditors: surewinT 840325271@qq.com
- * @LastEditTime: 2022-05-11 20:21:43
+ * @LastEditTime: 2022-05-14 13:48:59
  * @Description: 
 -->
 # package-components 
@@ -15,16 +15,20 @@
 
 ```
 ├── src            
-      ├── components            # 业务组件库（封装的组件都放在这里）
-      │   │── layout-components # 项目的主题组件（vue-admin-template官方的）
-      │   │── p-el-checkbox     # 改造的el-checkbox
-      │   │── p-el-menu         # vue递归生成菜单栏
-      │   │── p-el-pagination   # 封装el-pagination
-      ├── views                 # 组件案例
-      │   │── login             # 登录页
-      │   │── p-el-checkbox     # 改造的el-checkbox案例
-      │   │── p-el-menu         # vue递归案例
-      │   │── p-el-pagination   # 分页器案例
+      ├── components             # 业务组件库（封装的组件都放在这里）
+      │   │── layout-components  # 项目的主题组件（vue-admin-template官方的）
+      │   │── p-el-checkbox      # 改造的el-checkbox
+      │   │── p-el-menu          # vue递归生成菜单栏
+      │   │── p-el-pagination    # 封装el-pagination
+      │   │── p-virtual-check    # 虚拟列表-多选框组件
+      │   │── p-virtual-transfer # 虚拟列表-穿梭框组件
+      ├── views                  # 组件案例
+      │   │── login              # 登录页
+      │   │── p-el-checkbox      # 改造的el-checkbox案例
+      │   │── p-el-menu          # vue递归案例
+      │   │── p-el-pagination    # 分页器案例
+      │   │── p-virtual-check    # 虚拟列表-多选框组件案例
+      │   │── p-virtual-transfer # 虚拟列表-穿梭框组件案例
 ```
 
 
@@ -36,3 +40,6 @@
 
 [【业务实例】vue组件递归及其应用](https://juejin.cn/post/7095993609790423071)
 
+[【业务实例】vue组件递归及其应用](https://juejin.cn/post/7095993609790423071)
+
+[【业务实例】vue2用虚拟列表解决万条数据勾选卡顿问题](https://juejin.cn/post/7097230942724423711)
